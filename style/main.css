@@ -10,13 +10,17 @@ body {
     position: relative;
 }
 
+.slider img {
 
-
-.image {
-    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 
-.slider .left, .slider .right {
+
+
+.slider #left, .slider #right {
     position: absolute;
     font-size: 200%;
     top: 45%;
@@ -24,6 +28,6 @@ body {
     padding: 16px;
     text-decoration: none;
 }
-.slider .right {
+.slider #right {
     right: 0;
 }
