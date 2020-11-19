@@ -29,6 +29,9 @@ function start(p) {
     if (p < images) {
         position = images.length;
     }
+    if(p == 0) {
+        position = 5;
+    }
     for (let img of images) {
         img.style.display = 'none';
     }
